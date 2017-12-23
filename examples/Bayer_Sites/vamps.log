@@ -1,0 +1,125 @@
+
+# vamps:
+#	a model of Vegetation-AtMosPhere-Soil water flow
+#	vamps 0.99i -- Nov 2001
+#	J. Schellekens (c) Nov 2001
+#	Build on flow.geo.vu.nl at Nov 13 2017 by schj
+
+# Run starting at: Thursday November 16, 2017, 14:35.00
+# Using input from: vil.ini
+# Using defaults from: /usr/local/share/vamps0.99i/.vampsrc
+vamps: mesg: None: 0.000000: 0
+vamps: mesg: # Command: vamps vil.ini: 0.000000: 0
+vamps: mesg: reading file in memory...: 0.000000: 0
+vamps: mesg: done reading ini file in memory: 0.000000: 0
+get_data: mesg: using col 0 and 2 from vil_soilm.csv: 0.000000: 0
+get_data: mesg: getting data from vil_soilm.csv,0,2: 0.000000: 0
+add_set: mesg: set pre with fname vil_soilm.csv,0,2, points 151, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+vamps: mesg: vil_soilm.csv,0,2: 0.000000: 0
+add_set: mesg: set inr with fname inr, points 146, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: allocating memory: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+add_set: mesg: set spe with fname spe, points 146, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: allocating memory: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+add_set: mesg: set ptr with fname ptr, points 146, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: allocating memory: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+add_set: mesg: set trf with fname trf, points 146, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: allocating memory: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+add_set: mesg: set stf with fname stf, points 146, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: allocating memory: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+topsys: mesg: 7 topsystems, using 5 (Old canopy.c topsystem)
+: 0.000000: 0
+canopy: mesg: Using fixed canopy drying time: 0.000000: 0
+add_set: mesg: set spe with fname spe, points 146, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: warning: updating existing set: 0.000000: 0
+add_set: mesg: set inr with fname inr, points 146, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: warning: updating existing set: 0.000000: 0
+add_set: mesg: set sca with fname sca, points 146, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+add_set: mesg: set ptr with fname ptr, points 146, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: warning: updating existing set: 0.000000: 0
+add_set: mesg: set pev with fname pev, points 146, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+add_set: mesg: set lai with fname lai, points 146, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+canopy: mesg: using predefined E_avg/R: 0.000000: 0
+get_data: mesg: using col 0 and 4 from vil_soilm.csv: 0.000000: 0
+get_data: mesg: getting data from vil_soilm.csv,0,4: 0.000000: 0
+add_set: mesg: set ira with fname vil_soilm.csv,0,4, points 151, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+add_set: mesg: set nra with fname nra, points 146, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+get_data: mesg: using col 0 and 1 from vil_soilm.csv: 0.000000: 0
+get_data: mesg: getting data from vil_soilm.csv,0,1: 0.000000: 0
+add_set: mesg: set tem with fname vil_soilm.csv,0,1, points 151, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+get_data: mesg: using col 0 and 5 from vil_soilm.csv: 0.000000: 0
+get_data: mesg: getting data from vil_soilm.csv,0,5: 0.000000: 0
+add_set: mesg: set rlh with fname vil_soilm.csv,0,5, points 151, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+get_data: mesg: using col 0 and 3 from vil_soilm.csv: 0.000000: 0
+get_data: mesg: getting data from vil_soilm.csv,0,3: 0.000000: 0
+add_set: mesg: set win with fname vil_soilm.csv,0,3, points 151, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+swatsoil: mesg: getting initial values: 0.000000: 0
+add_set: mesg: set qbo with fname qbo, points 146, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: allocating memory: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+add_set: mesg: set vol with fname vol, points 146, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: allocating memory: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+add_set: mesg: set avt with fname avt, points 146, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: allocating memory: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+add_set: mesg: set rdp with fname rdp, points 151, vunit 0, tunit 0: 0.000000: 0
+add_set: mesg: using pre-allocated memory: 0.000000: 0
+add_set: mesg: creating new set: 0.000000: 0
+Number of calls to timestep: 91721
+Number of itterations in headcalc: 93540
++---------------------------------------------------------------------+
+Summary:
+timesteps			146
+precipitation			24.02
+potential_transpiration		79.1526
+rootextract			26.6447
+interception			5.65422
+drainage (cumbot)		-4.69912
+flow through top (cumtop)	-17.4344
+lateral_drainage		0
+soilevaporation			1.01675
+initial_storage			28.0349
+final_storage			9.89653
+delta_storage			18.1383
+surface_runoff			0
+mass-balance			4.22897
++---------------------------------------------------------------------+
+pro_mesg: mesg: number of messages: 89: 206.000000 145
+pro_mesg: mesg: number of warnings: 3: 206.000000 145
+pro_mesg: mesg: number of errors: 0: 206.000000 145
+
+# Run ending at: Thursday November 16, 2017, 14:35.03
