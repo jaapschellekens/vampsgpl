@@ -283,7 +283,7 @@ variable grfile,s,ss,sss;
 define each_step ()
 {
    % Check for conditional switches to interactive mode, see stop.sl
-   stop();
+   %stop();
    v_printstr("CPU",string(cpu)); % Store CPU time used in output file
 }
 
