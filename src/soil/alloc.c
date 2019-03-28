@@ -55,6 +55,7 @@ allocall (layers)
 	hm1 = dvector(0, layers -1);
 	h = dvector(0, layers -1);
 	qrot = dvector(0, layers -1);
+	smflow = dvector(0, layers -1);
 	depth = dvector(0, layers);
 	k = dvector(0, layers -1);
 	kgeom = dvector(0, layers);

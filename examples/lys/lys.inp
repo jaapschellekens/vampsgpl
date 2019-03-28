@@ -1,5 +1,5 @@
 [vamps]
-showgraph = 0
+showgraph = 1
 xtrasl = topsys.sl
 
 
@@ -17,7 +17,8 @@ canopy = 1
 
 
 [top]
-system = 4
+system = 6
+#system = 4
 
 
 [interception]

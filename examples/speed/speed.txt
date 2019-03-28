@@ -47,3 +47,5 @@
 1,	ASUS,	Athlon XP,	1800,	AMD,		CYGWIN_NT-5.1_i686,	1.859000,	161377.08
 #Vamps version 0.99i -- Nov 2001 [Nov 13 2017] (Linux_x86_64)
 1,	tf7600,	Xeon,	2.5,	Intel,		Linux_x86_64,	0.503202,	596182.05
+#Vamps version 0.99i -- Nov 2001 [Feb 26 2019] (Linux_x86_64)
+1,	tf7300,	Xeon,	3000,	Intel,		Linux_x86_64,	0.527926,	568261.46

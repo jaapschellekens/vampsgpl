@@ -14,7 +14,7 @@ OBJDIR 		= ../objsLinux_x86_64
 RM 	= rm -f
 VAMPSLIBDIR	= ${prefix}/share/vamps0.99i
 INC	= -I$(top_srcdir)/include -I$(top_srcdir)
-GNUPLOT	= 
+GNUPLOT	= /usr/bin/gnuplot
 DEFS	= -DHAVE_CONFIG_H -DVAMPSLIB=\"${VAMPSLIBDIR}\" -DGNUPLOT=\"${GNUPLOT}\"
 SLDOC	= vamps -I sldoc
 

@@ -59,9 +59,9 @@ s%@CC@%gcc%g
 s%@CPP@%cc -E%g
 s%@SET_MAKE@%%g
 s%@TERMCAP@%-ltermcap%g
-s%@SRCDIR@%/home/jschellekens/Data/src/vamps_0.99i/src/slang.0.99/demo%g
-s%@OBJDIR@%/home/jschellekens/Data/src/vamps_0.99i/src/slang.0.99/demo/objs%g
-s%@ELFDIR@%/home/jschellekens/Data/src/vamps_0.99i/src/slang.0.99/demo/elfobjs%g
+s%@SRCDIR@%/home/jschellekens/Data/src/vampsgpl/src/slang.0.99/demo%g
+s%@OBJDIR@%/home/jschellekens/Data/src/vampsgpl/src/slang.0.99/demo/objs%g
+s%@ELFDIR@%/home/jschellekens/Data/src/vampsgpl/src/slang.0.99/demo/elfobjs%g
 s%@PROGRAM_OFILES@% array.o complex.o simple.o useropen.o pager.o keypad.o smgtest.o%g
 s%@PROGRAM_OBJECTS@% $(OBJDIR)/array.o $(OBJDIR)/complex.o $(OBJDIR)/simple.o $(OBJDIR)/useropen.o $(OBJDIR)/pager.o $(OBJDIR)/keypad.o $(OBJDIR)/smgtest.o%g
 s%@PROGRAM_ELFOBJECTS@% $(ELFDIR)/array.o $(ELFDIR)/complex.o $(ELFDIR)/simple.o $(ELFDIR)/useropen.o $(ELFDIR)/pager.o $(ELFDIR)/keypad.o $(ELFDIR)/smgtest.o%g

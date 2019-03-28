@@ -18,7 +18,7 @@ TBL
 {
 	TBL *tt;
 
-	if (verb)
+	/* if (verb) */
 		fprintf (stderr, 
 		"mktable.c: creating table %s with %d points\n", des, items);
 	
@@ -26,7 +26,7 @@ TBL
 	tt->x = (double *) ts_memory (NULL, items * sizeof (double), progname);
 	tt->y = (double *) ts_memory (NULL, items * sizeof (double), progname);
 	tt->points = items;
-	tt->lasthit = 0.5 * items;
+	tt->lasthit = items /2;
 	strcpy (tt->des, des);
 
 	return tt;
@@ -74,7 +74,7 @@ double getval(TBL *tab, double x)
 			}
 		} else {
 			if (tab->lasthit == 0){
-				tab->lasthit = -1;
+				tab->lasthit = 0;
 				return tab->y[0];
 			}
 			jhi = tab->lasthit--;
@@ -93,6 +93,7 @@ double getval(TBL *tab, double x)
 			}
 		}
 	} /* hunting stopped, do bin search...*/
+	
 	while ((jhi - tab->lasthit) != 1){
 		jm = (jhi + tab->lasthit) >> 1;
 		if (x >= tab->x[jm] == ascnd)
@@ -100,9 +101,9 @@ double getval(TBL *tab, double x)
 		else
 			jhi = jm;
 	}
-	if ( x == tab->x[0]) /* at first point and match */
+	if ( x <= tab->x[0]) /* at first point and match */
 		tab->lasthit = 0;
-	else if (x == tab->x[n - 1]) /* at last point and match */
+	else if (x >= tab->x[n - 1]) /* at last point and match */
 		tab->lasthit = n - 2;
 
 	/* linear interpolation */

@@ -111,7 +111,10 @@ typedef struct {
 	int	nra;	/* net radiation [W/m2] */
 	int	ref;	/* reflected radiation [W/m2] */
 	int	win;	/* windspeed [m/s] */
-	int     sur;	/* sunratio (n/N) */
+	int sur;	/* sunratio (n/N) */
+	int sm0;    /* soil moisture input 0 */
+	int sm1;    /* soil moisture input 1 */
+	int sm2;    /* soil moisture input 2 */
 } ID;
 
 typedef struct {

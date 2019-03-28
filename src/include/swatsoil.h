@@ -130,6 +130,7 @@ extern double *z;			/* Depth */
 extern double *hm1;			/* Head one timestep back */
 extern double qtop;			/* Discharge at top */
 extern double *qrot;			/* Root extraction rate, determined in rootex.f */
+extern double *smflow;			/* Soil moisture extraction/addition rate*/
 extern double pond;			/* Ponding amount at top */
 extern double qsurf;			
 extern double runots;	

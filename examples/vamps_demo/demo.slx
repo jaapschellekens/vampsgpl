@@ -27,9 +27,9 @@ define vamps_progress ()
 define at_start()
 {
 	plt_mat = matrix(v_steps,2);
-	set_plotsys_byname("gnu_m_plot");
-	plt("set nokey");
-} 
+ 	set_plotsys_byname("gnu_m_plot");
+ 	plt("set nokey");
+}  
 
 define at_end()
 {
@@ -72,11 +72,11 @@ pause(-1);
 % first run other occurrance of Vamps to get soil tables. This is a hack but
 % it works. ;-)
 fprintf(stderr,"Generating soil tables needed for plotting, please wait...",0);
-() = system(sprintf("vamps -S\'time steps 1\' -o soiltab %s",demo_infile,1));
-evalfile("soilgr.sl");
+%() = system(sprintf("vamps -S\'time steps 1\' -o soiltab %s",demo_infile,1));
+%evalfile("soilgr.sl");
 echo("done.");
 echo("soil moisture retension plots of all soil layers...");
-allsoilplots("soiltab");
+%allsoilplots("soiltab");
 pause(-1);
 plt("set nologscale");
 plt("set autoscale");

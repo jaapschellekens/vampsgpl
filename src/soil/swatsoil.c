@@ -84,6 +84,7 @@ double *hm1;			/* Head one timestep back */
 double qtop;			/* Discharge at top */
 double *qrot;			/* Root extraction rate,determined in rootex.f*/
 double **qdra;			/* 4x layers matrix */
+double *smflow;			/* */
 double qbot;			/* bottom q?? */
 double *mqdra;
 
@@ -639,6 +640,7 @@ postsoil ()
 	free_dvector(h, 0, layers -1);
 	free_dvector(hm1, 0, layers -1);
 	free_dvector(qrot, 0, layers -1);
+	free_dvector(smflow, 0, layers -1);
 	free_dvector(depth, 0, layers);
 	free_dvector(k, 0, layers -1);
 	free_ivector(allowdrain, 0, layers -1);

@@ -1,3 +1,11 @@
 libLinux_x86_64/*
 *.o
 *.a
+*.cache
+*.log
+.vscvode/*
+share/pretop
+share/demo
+share/mkidx
+share/mkinp
+share/report

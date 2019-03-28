@@ -1,0 +1,19 @@
+
+# vamps:
+#	a model of Vegetation-AtMosPhere-Soil water flow
+#	vamps 0.99i -- Nov 2001
+#	J. Schellekens (c) Nov 2001
+#	Build on flow.geo.vu.nl at Feb 26 2019 by schj
+
+# Run starting at: Tuesday February 26, 2019, 16:29.05
+# Using input from: nlys.inp
+# Using defaults from: /usr/local/share/vamps0.99i/.vampsrc
+
+# Use the vsel command to extract information from this file.
+# The input values are dumped at the end of this file.
+# Thank you for using vamps!
+
+[header]
+run_start_time= Tuesday February 26, 2019, 16:29.05
+command=# Command: vamps nlys.inp
+defaultsfile=/usr/local/share/vamps0.99i/.vampsrc

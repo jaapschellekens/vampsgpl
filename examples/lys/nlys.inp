@@ -1,5 +1,5 @@
 [vamps]
-showgraph = 0
+showgraph = 1
 
 [time]
 steps = 171
